@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+    margin: 0;
+    padding: 0;
+}
+
+main, footer{
+    padding: 10px 20px;
+}
+
+.tabela, th, tr, td{
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    border-color: blue;/*estiliza a cor*/
+    border-width: 3px;/*estiliza a largura*/
+    border-style: solid;/* estiliza o estilo*/
+}
+
+ul{
+    background-color: linear-gradient(to top, aqua, bisque);
+}
+ul a{
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    color: #fff;
+    padding: 5px;
+    font-weight: bold;
+}
+li:hover{
+    background-image: linear-gradient(to top, rgb(27, 13, 221), rgb(57, 80, 212));
+    /*hover é utilizado para aplicar em um link quando o mausa passa por cima dele*/
+}
+.botao{
+    border: solid 1px blue;
+    border-radius: 20px;
+    color: blue;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transfomn 0.5s ease;
+    
+}
+.botao:hover{
+    background-color: blue;
+    color: white;
+    transform: scale(1,2);
+}
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #c01a1a;
+    text-align: center;
+}
