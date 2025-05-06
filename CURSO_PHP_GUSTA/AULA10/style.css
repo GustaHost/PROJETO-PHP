@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    border: 1px solid;
+
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+    border: 1px solid black;
+    padding: 8px
+    ;
+}
